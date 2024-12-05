@@ -1,7 +1,8 @@
 import socket
 import threading
 
-tcp_port = udp_port = 8010
+tcp_port = 8010
+udp_port = 8011
 
 def udp_listen(sock):
     data, addr = sock.recvfrom(1024)  
