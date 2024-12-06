@@ -40,8 +40,8 @@ def tcp_listen(sock):
 sockTCP = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # TCP
 sockUDP = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)   # UDP
 
-server_addressTCP = ('localhost', tcp_port)
-server_addressUDP = ('localhost', udp_port)
+server_addressTCP = ('10.24.7.115', tcp_port)
+server_addressUDP = ('10.24.7.115', udp_port)
 
 sockTCP.bind(server_addressTCP)
 sockUDP.bind(server_addressUDP)
